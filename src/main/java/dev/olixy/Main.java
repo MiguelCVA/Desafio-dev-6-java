@@ -27,10 +27,10 @@ public class Main {
     public static void main(String[] args) {
         List<Map<String, Object>> products = new ArrayList<>();
 
-        products.add(Map.of("name", "Leite", "price", 10.00));
+        products.add(Map.of("name", "Milk", "price", 10.00));
         products.add(Map.of("name", "Caviar", "price", 100.00));
         products.add(Map.of("name", "Kinder Ovo", "price", 45.00));
-        products.add(Map.of("name", "Maizena", "price", 40.00));
+        products.add(Map.of("name", "Pizza", "price", 40.00));
 
         double maxPrice = 100.00;
         double minPrice = 40.00;
